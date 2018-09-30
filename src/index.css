@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.bg-secondary {
+  background-color: #F6F7FB !important;
+}
+
+.text-primary {
+  color: #546782 !important;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+ul.list-menu > li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+ul.list-menu {
+  margin-bottom: 0px;
+}
+
+ul.list-menu a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+ul.list-menu > li:hover{
+  background-color: #546782;
+  border-radius: 5px;
+}
+
+ul.list-menu > li:hover a {
+  color: #fff !important;
+}
